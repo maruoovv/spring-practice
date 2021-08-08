@@ -31,11 +31,14 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("junit:junit:4.12")
+
 	compileOnly("org.projectlombok:lombok")
 	runtimeOnly("com.h2database:h2")
 	runtimeOnly("mysql:mysql-connector-java")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+//	implementation("org.junit.jupiter:junit-jupiter-params:5.7.0")
+	testImplementation("org.junit.jupiter:junit-jupiter-params:5.7.0")
 }
 
 tasks.withType<KotlinCompile> {
