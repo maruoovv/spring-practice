@@ -31,6 +31,9 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("junit:junit:4.12")
+	implementation("io.github.microutils:kotlin-logging:1.12.5")
+	implementation("net.logstash.logback:logstash-logback-encoder:6.5")
+
 
 	compileOnly("org.projectlombok:lombok")
 	runtimeOnly("com.h2database:h2")
